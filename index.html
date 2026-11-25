@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="xiaobo036" />
+    <meta name="theme" content="#030b31" />
+    <base href="/" />
+    <link
+      rel="shortcut icon"
+      href="
+	https://img.alicdn.com/imgextra/i1/O1CN01AKUdEM1qP6BQVaYhT_!!6000000005487-2-tps-512-512.png"
+      type="image/x-icon"
+    />
+    <title>Dashboard Monitoring System</title>
+  </head>
+  <body style="background: #030b31 !important">
+    <div class="container-fluid" id="app">
+      <div class="row">
+        <div class="col-12" id="screen_topbar">
+          <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+              <div class="row">
+                <div class="col-sm-6">
+                  <a href="./v2">
+                    <img
+                      style="padding-left: 20px; padding-top: 20px"
+                      id="customer_screen_logo"
+                      src="data:image/png;base64,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"
+                      height="50"
+                    />
+                  </a>
+                </div>
+                <div class="col-sm-6"></div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+              <h1 id="screen_title">仪表盘监测系统</h1>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+              <div class="row text-right">
+                <div class="col-sm-6">
+                  <div
+                    style="padding-right: 10px; padding-top: 10px"
+                    id="screen_button"
+                  >
+                    <button @click="toggleFullScreen()">{{btn_word}}</button>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <a href="./v2">
+                    <img
+                      style="padding-top: 20px; padding-right: 20px"
+                      height="50"
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV0AAABQCAMAAACNv1bvAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAB3RJTUUH4gwNChUF6oqyuAAAAvdQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////GWS3////ILXnNAAAAPt0Uk5TAAABAgMEBQYHCAkKCwwNDg8QERITFBUWFxgZGhscHR4fICEiIyQlJicoKSorLC0u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"
+                      alt="eamic_logo"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12" id="screen_content">
+          <div id="left_content">
+            <div class="eam_back_1">
+              <div class="content_title">
+                <h4>今天的工作单</h4>
+              </div>
+              <table class="table table-borderless table-sm text-center mb-0">
+                <thead class="table-borderless">
+                  <tr>
+                    <th>资产</th>
+                    <th>工作单号</th>
+                    <th>类别</th>
+                    <th>状态</th>
+                  </tr>
+                </thead>
+              </table>
+              <div class="scroll_box mt-1" ref="table_box1">
+                <table
+                  class="table table-sm table-borderedless text-center"
+                  ref="table_dom1"
+                >
+                  <tbody>
+                    <tr v-for="(line,index) in table1" :key="index">
+                      <td>{{line.asset_code}} {{line.asset_name}}</td>
+                      <td>{{line.wo_id}} {{line.wo_name}}</td>
+                      <td>{{line.type_name}}</td>
+                      <td
+                        class="text-center"
+                        v-html="badge(line.wo_status)"
+                      ></td>
+                    </tr>
+
+                    <tr v-for="(line,index) in table1" :key="index">
+                      <td>{{line.asset_code}} {{line.asset_name}}</td>
+                      <td>{{line.wo_id}} {{line.wo_name}}</td>
+                      <td>{{line.type_name}}</td>
+                      <td
+                        class="text-center"
+                        v-html="badge(line.wo_status)"
+                      ></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="eam_back_1">
+              <div class="content_title">
+                <h4>前十大工单汇总(停机时间)</h4>
+              </div>
+              <table class="table text-center table-borderless table-sm mb-0">
+                <thead class="table-borderless">
+                  <tr>
+                    <th>工单</th>
+                    <th>资产</th>
+                    <th>执行人员</th>
+                    <th>工单创建时间</th>
+                  </tr>
+                </thead>
+              </table>
+              <div class="scroll_box mt-1" ref="table_box2">
+                <table
+                  class="table table-sm table-borderedless text-center"
+                  ref="table_dom2"
+                >
+                  <tbody>
+                    <tr v-for="(line,index) in table2" :key="index">
+                      <td>{{line.wo_id}}{{line.wo_name}}</td>
+                      <td>{{line.asset_code}}{{line.asset_name}}</td>
+                      <td>{{line.employee}}</td>
+                      <td>{{dateFormat(line.wo_creation_time)}}</td>
+                    </tr>
+                    <tr v-for="(line,index) in table2" :key="index">
+                      <td>{{line.wo_id}}{{line.wo_name}}</td>
+                      <td>{{line.asset_code}}{{line.asset_name}}</td>
+                      <td>{{line.downtime}}</td>
+                      <td>{{dateFormat(line.wo_creation_time)}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="eam_back_1">
+              <div class="content_title">
+                <h4>设备重复维修次数</h4>
+              </div>
+              <table class="table text-center table-borderless table-sm mb-0">
+                <thead class="table-borderless">
+                  <tr>
+                    <th>设备编码</th>
+                    <th>设备名称</th>
+                    <th>故障模式名称</th>
+                    <th>重复次数</th>
+                  </tr>
+                </thead>
+              </table>
+              <div class="scroll_box mt-1" ref="table_box3">
+                <table
+                  class="table table-sm table-borderedless text-center"
+                  ref="table_dom3"
+                >
+                  <tbody>
+                    <tr v-for="(line,index) in table3" :key="index">
+                      <td>{{line.asset_code}}</td>
+                      <td>{{line.asset_name}}</td>
+                      <td>{{line.wo_failure_mode_name}}</td>
+                      <td>{{line.repeat_number}}</td>
+                    </tr>
+                    <tr v-for="(line,index) in table3" :key="index">
+                      <td>{{line.asset_code}}</td>
+                      <td>{{line.asset_name}}</td>
+                      <td>{{line.wo_failure_mode_name}}</td>
+                      <td>{{line.repeat_number}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div id="middle_content">
+            <div class="content_title">
+              <h4>维护工作单分类展示</h4>
+            </div>
+            <div class="row mt-4 eam_back_2 no-gutters">
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="chart1 eam_foundation" ref="chart_dom1"></div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="chart_1 eam_foundation" ref="chart_dom2"></div>
+              </div>
+            </div>
+            <div class="content_title">
+              <h4>维护工作单状态展示</h4>
+            </div>
+            <div class="eam_back_3">
+              <div class="chart_2" ref="chart_dom3"></div>
+            </div>
+          </div>
+          <div id="right_content">
+            <div class="eam_back_1">
+              <div class="content_title">
+                <h4>维修前十设备</h4>
+              </div>
+              <div class="chart_3" ref="chart_dom4"></div>
+            </div>
+            <div class="eam_back_1">
+              <div class="content_title">
+                <h4>月度故障时间总览</h4>
+              </div>
+              <div class="chart_3" ref="chart_dom5"></div>
+            </div>
+            <div class="eam_back_1">
+              <div class="content_title">
+                <h4>月度故障时间走势</h4>
+              </div>
+              <div class="chart_3" ref="chart_dom6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<link rel="stylesheet" href="public/style.css" />
+<link rel="stylesheet" href="public/styles.c36a39886d90741de889.css" />
+<script src="public/vue.3.2.2.global.prod.js" type="text/javascript"></script>
+<script src="public/echarts.common.min.js" type="text/javascript"></script>
+<script src="public/dayjs.min.js" type="text/javascript"></script>
+<script src="public/echarts-gl.min.js" type="text/javascript"></script>
+<script src="public/axios.min.js" type="text/javascript"></script>
+<script src="reports_big_screen.js" type="module"></script>
+<script src="reports_big_screen_module.js" type="module"></script>

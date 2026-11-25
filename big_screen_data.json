@@ -1,0 +1,516 @@
+{
+  "data": {
+    "table1": [
+      {
+        "wo_id": "INC261125",
+        "wo_name": "VPN 客户端连接失败（上海办公区）",
+        "wo_schedule_time": "2026-11-25 09:30:00",
+        "wo_status": 2,
+        "asset_code": "NET-VPN-01",
+        "asset_name": "VPN 网关",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "INC261128",
+        "wo_name": "财务系统报表导出超时",
+        "wo_schedule_time": "2026-11-25 10:15:00",
+        "wo_status": 3,
+        "asset_code": "SRV-ERP-01",
+        "asset_name": "ERP 财务服务器",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "REQ261012",
+        "wo_name": "新员工办公账号开通（12 人）",
+        "wo_schedule_time": "2026-11-25 11:00:00",
+        "wo_status": 1,
+        "asset_code": "SVC-ACCOUNT",
+        "asset_name": "账号与权限服务",
+        "type_name": "服务请求"
+      },
+      {
+        "wo_id": "CHG260308",
+        "wo_name": "核心交换机固件升级（18F 机房）",
+        "wo_schedule_time": "2026-11-26 22:00:00",
+        "wo_status": 4,
+        "asset_code": "NET-SW-18F",
+        "asset_name": "核心交换机",
+        "type_name": "变更发布"
+      },
+      {
+        "wo_id": "INC261133",
+        "wo_name": "二号楼无线频繁掉线",
+        "wo_schedule_time": "2026-11-25 14:40:00",
+        "wo_status": 5,
+        "asset_code": "NET-WIFI-AP2",
+        "asset_name": "二号楼无线 AP",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "PM260911",
+        "wo_name": "数据中心 UPS 季度巡检",
+        "wo_schedule_time": "2026-11-27 09:00:00",
+        "wo_status": 1,
+        "asset_code": "IDC-UPS-01",
+        "asset_name": "机房 UPS 组",
+        "type_name": "预防性巡检"
+      },
+      {
+        "wo_id": "INC261140",
+        "wo_name": "总部 3F 打印机连续卡纸",
+        "wo_schedule_time": "2026-11-24 15:20:00",
+        "wo_status": 2,
+        "asset_code": "PRN-HQ-03",
+        "asset_name": "总部 3F 共享打印机",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "INC261142",
+        "wo_name": "门禁刷卡无响应（1F 前台）",
+        "wo_schedule_time": "2026-11-25 08:50:00",
+        "wo_status": 3,
+        "asset_code": "ACS-1F-02",
+        "asset_name": "1F 门禁读卡器",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "INC261138",
+        "wo_name": "3F 大会议室投影无信号输出",
+        "wo_schedule_time": "2026-11-24 13:10:00",
+        "wo_status": 4,
+        "asset_code": "MT-3F-01",
+        "asset_name": "3F 大会议室投影",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "REQ261015",
+        "wo_name": "OA 流程表单新增审批节点",
+        "wo_schedule_time": "2026-11-25 16:00:00",
+        "wo_status": 1,
+        "asset_code": "APP-OA-02",
+        "asset_name": "OA 协同办公",
+        "type_name": "服务请求"
+      },
+      {
+        "wo_id": "INC261145",
+        "wo_name": "邮件网关退信率异常升高",
+        "wo_schedule_time": "2026-11-25 09:05:00",
+        "wo_status": 3,
+        "asset_code": "MAIL-GW-01",
+        "asset_name": "邮件网关",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "CHG260312",
+        "wo_name": "边界防火墙策略变更（对外端口收紧）",
+        "wo_schedule_time": "2026-11-26 20:00:00",
+        "wo_status": 2,
+        "asset_code": "FW-EDGE-01",
+        "asset_name": "边界防火墙",
+        "type_name": "变更发布"
+      },
+      {
+        "wo_id": "INC261147",
+        "wo_name": "数据库从库主从延迟告警",
+        "wo_schedule_time": "2026-11-25 07:40:00",
+        "wo_status": 3,
+        "asset_code": "SRV-DB-02",
+        "asset_name": "数据库从库",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "REQ261018",
+        "wo_name": "财务办公电脑更换固态硬盘",
+        "wo_schedule_time": "2026-11-25 14:00:00",
+        "wo_status": 1,
+        "asset_code": "PC-FIN-08",
+        "asset_name": "财务部办公电脑",
+        "type_name": "服务请求"
+      },
+      {
+        "wo_id": "INC261150",
+        "wo_name": "视频会议终端无法入会",
+        "wo_schedule_time": "2026-11-25 11:20:00",
+        "wo_status": 2,
+        "asset_code": "VC-HQ-01",
+        "asset_name": "总部视频会议终端",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "PM260913",
+        "wo_name": "机房精密空调滤网更换",
+        "wo_schedule_time": "2026-11-28 10:00:00",
+        "wo_status": 1,
+        "asset_code": "IDC-AC-02",
+        "asset_name": "机房精密空调",
+        "type_name": "预防性巡检"
+      },
+      {
+        "wo_id": "INC261155",
+        "wo_name": "二号楼 5F 有线网络不通",
+        "wo_schedule_time": "2026-11-25 10:40:00",
+        "wo_status": 3,
+        "asset_code": "NET-SW-2F05",
+        "asset_name": "二号楼 5F 接入交换机",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "INC261158",
+        "wo_name": "统一身份认证 SSO 登录异常",
+        "wo_schedule_time": "2026-11-25 12:05:00",
+        "wo_status": 4,
+        "asset_code": "APP-SSO-01",
+        "asset_name": "统一身份认证平台",
+        "type_name": "故障报修"
+      }
+    ],
+    "table2": [
+      {
+        "wo_id": "INC261162",
+        "wo_name": "网盘同步失败（设计部）",
+        "wo_schedule_time": "2026-11-25 18:10:00",
+        "wo_status": 1,
+        "asset_code": "DOC-NAS-01",
+        "asset_name": "文档网盘",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "INC261165",
+        "wo_name": "财务 U 盾驱动安装失败",
+        "wo_schedule_time": "2026-11-25 18:30:00",
+        "wo_status": 1,
+        "asset_code": "PC-FIN-12",
+        "asset_name": "财务部办公电脑",
+        "type_name": "服务请求"
+      },
+      {
+        "wo_id": "INC261167",
+        "wo_name": "会议室无线投屏认证失败",
+        "wo_schedule_time": "2026-11-26 09:10:00",
+        "wo_status": 2,
+        "asset_code": "MT-5F-02",
+        "asset_name": "5F 会议室投屏",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "INC261170",
+        "wo_name": "OA 附件上传失败",
+        "wo_schedule_time": "2026-11-26 09:40:00",
+        "wo_status": 2,
+        "asset_code": "APP-OA-02",
+        "asset_name": "OA 协同办公",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "INC261172",
+        "wo_name": "ERP 打印单据错位",
+        "wo_schedule_time": "2026-11-26 10:20:00",
+        "wo_status": 3,
+        "asset_code": "SRV-ERP-01",
+        "asset_name": "ERP 财务服务器",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "INC261175",
+        "wo_name": "分部 VPN 专线抖动",
+        "wo_schedule_time": "2026-11-26 11:00:00",
+        "wo_status": 3,
+        "asset_code": "NET-BR-02",
+        "asset_name": "分支机构专线",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "INC261177",
+        "wo_name": "考勤机数据未同步",
+        "wo_schedule_time": "2026-11-26 13:30:00",
+        "wo_status": 2,
+        "asset_code": "HR-ATT-01",
+        "asset_name": "考勤机",
+        "type_name": "故障报修"
+      },
+      {
+        "wo_id": "INC261180",
+        "wo_name": "邮箱容量超限无法收信",
+        "wo_schedule_time": "2026-11-26 14:00:00",
+        "wo_status": 1,
+        "asset_code": "MAIL-GW-01",
+        "asset_name": "邮件网关",
+        "type_name": "服务请求"
+      }
+    ],
+    "table3": [
+      {
+        "asset_code": "PRN-HQ-03",
+        "asset_name": "总部 3F 共享打印机",
+        "wo_failure_mode_name": "卡纸 / 进纸组件故障",
+        "repeat_number": 21
+      },
+      {
+        "asset_code": "NET-WIFI-AP2",
+        "asset_name": "二号楼无线 AP",
+        "wo_failure_mode_name": "无线频繁掉线",
+        "repeat_number": 18
+      },
+      {
+        "asset_code": "MT-3F-01",
+        "asset_name": "3F 大会议室投影",
+        "wo_failure_mode_name": "无信号输出",
+        "repeat_number": 14
+      },
+      {
+        "asset_code": "SRV-DB-02",
+        "asset_name": "数据库从库",
+        "wo_failure_mode_name": "主从延迟告警",
+        "repeat_number": 11
+      },
+      {
+        "asset_code": "ACS-1F-02",
+        "asset_name": "1F 门禁读卡器",
+        "wo_failure_mode_name": "刷卡无响应",
+        "repeat_number": 9
+      },
+      {
+        "asset_code": "VC-HQ-01",
+        "asset_name": "总部视频会议终端",
+        "wo_failure_mode_name": "入会失败 / 画面卡顿",
+        "repeat_number": 8
+      },
+      {
+        "asset_code": "MAIL-GW-01",
+        "asset_name": "邮件网关",
+        "wo_failure_mode_name": "退信率异常",
+        "repeat_number": 7
+      },
+      {
+        "asset_code": "APP-SSO-01",
+        "asset_name": "统一身份认证平台",
+        "wo_failure_mode_name": "SSO 登录失败",
+        "repeat_number": 6
+      },
+      {
+        "asset_code": "SRV-ERP-01",
+        "asset_name": "ERP 财务服务器",
+        "wo_failure_mode_name": "报表导出超时",
+        "repeat_number": 5
+      },
+      {
+        "asset_code": "PC-FIN-08",
+        "asset_name": "财务部办公电脑",
+        "wo_failure_mode_name": "系统蓝屏重启",
+        "repeat_number": 4
+      }
+    ],
+    "table4": [
+      {
+        "asset_code": "SRV-ERP-01",
+        "asset_name": "ERP 财务服务器",
+        "wo_failure_mode_name": "报表导出超时",
+        "repeat_number": 18
+      },
+      {
+        "asset_code": "NET-VPN-01",
+        "asset_name": "VPN 网关",
+        "wo_failure_mode_name": "客户端连接失败",
+        "repeat_number": 15
+      },
+      {
+        "asset_code": "PRN-HQ-03",
+        "asset_name": "总部 3F 共享打印机",
+        "wo_failure_mode_name": "卡纸 / 进纸组件故障",
+        "repeat_number": 12
+      },
+      {
+        "asset_code": "APP-OA-02",
+        "asset_name": "OA 协同办公",
+        "wo_failure_mode_name": "附件上传失败 / 流程卡顿",
+        "repeat_number": 10
+      },
+      {
+        "asset_code": "SRV-DB-02",
+        "asset_name": "数据库从库",
+        "wo_failure_mode_name": "主从延迟告警",
+        "repeat_number": 9
+      },
+      {
+        "asset_code": "MT-3F-01",
+        "asset_name": "3F 大会议室投影",
+        "wo_failure_mode_name": "无信号输出",
+        "repeat_number": 7
+      },
+      {
+        "asset_code": "ACS-1F-02",
+        "asset_name": "1F 门禁读卡器",
+        "wo_failure_mode_name": "刷卡无响应",
+        "repeat_number": 6
+      },
+      {
+        "asset_code": "NET-WIFI-AP2",
+        "asset_name": "二号楼无线 AP",
+        "wo_failure_mode_name": "无线频繁掉线",
+        "repeat_number": 5
+      },
+      {
+        "asset_code": "PC-FIN-08",
+        "asset_name": "财务部办公电脑",
+        "wo_failure_mode_name": "系统蓝屏重启",
+        "repeat_number": 4
+      },
+      {
+        "asset_code": "SVC-ACCOUNT",
+        "asset_name": "账号与权限服务",
+        "wo_failure_mode_name": "账号开通延迟",
+        "repeat_number": 3
+      }
+    ],
+    "chart1": [
+      {
+        "name": "故障报修",
+        "value": 236
+      },
+      {
+        "name": "服务请求",
+        "value": 108
+      },
+      {
+        "name": "变更发布",
+        "value": 42
+      },
+      {
+        "name": "预防性巡检",
+        "value": 42
+      }
+    ],
+    "chart2": [
+      {
+        "name": "电话热线",
+        "value": 156
+      },
+      {
+        "name": "邮件",
+        "value": 92
+      },
+      {
+        "name": "自助门户",
+        "value": 88
+      },
+      {
+        "name": "IM 群",
+        "value": 62
+      },
+      {
+        "name": "监控告警",
+        "value": 30
+      }
+    ],
+    "chart3": {
+      "label": [
+        "待受理",
+        "已派单",
+        "处理中",
+        "待用户验证",
+        "已解决",
+        "已关闭",
+        "挂起"
+      ],
+      "value": [
+        18,
+        27,
+        46,
+        12,
+        246,
+        74,
+        5
+      ]
+    },
+    "chart4": {
+      "label": [
+        "SRV-ERP-01",
+        "NET-VPN-01",
+        "PRN-HQ-03",
+        "APP-OA-02",
+        "SRV-DB-02",
+        "MT-3F-01",
+        "ACS-1F-02",
+        "NET-WIFI-AP2",
+        "PC-FIN-08",
+        "SVC-ACCOUNT",
+        "MAIL-GW-01",
+        "VC-HQ-01"
+      ],
+      "value": [
+        18,
+        15,
+        12,
+        10,
+        9,
+        7,
+        6,
+        5,
+        4,
+        3,
+        3,
+        2
+      ]
+    },
+    "chart5": {
+      "label": [
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10",
+        "2026-11"
+      ],
+      "value": [
+        318,
+        342,
+        296,
+        364,
+        381,
+        358,
+        372,
+        405,
+        388,
+        421,
+        396,
+        428
+      ]
+    },
+    "chart6": {
+      "label": [
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10",
+        "2026-11"
+      ],
+      "value": [
+        58,
+        55,
+        61,
+        52,
+        49,
+        47,
+        46,
+        41,
+        44,
+        35,
+        32,
+        28
+      ]
+    }
+  }
+}
